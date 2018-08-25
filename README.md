@@ -1,6 +1,6 @@
 # projet1
 
-> Projet1 est un projet avec vue javascript pour une application web
+> College Maele est un projet d'une application web dévéloppé en VueJavaScript par Polycarpe MAKOMBO
 
 ## Build Setup
 
