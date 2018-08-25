@@ -90,7 +90,7 @@
 }
 .allcontenu {
   padding-top: 4em o;
-  background: black; 
+  background: black;
   margin-top: 50px;
 }
 .photos {

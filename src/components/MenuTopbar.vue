@@ -27,7 +27,7 @@
 
 <style scoped>
 #menutopbar {
-background:aliceblue; 
+background:aliceblue;
 justify-content: center;
 text-decoration: none;
 padding: 4em 0;
@@ -35,7 +35,7 @@ padding: 4em 0;
 .logoimg {
   display: inline-flex;
   float: left;
-  background: aliceblue; 
+  background: aliceblue;
 }
 .item-nav {
   display: inline-flex;
@@ -46,12 +46,12 @@ padding: 4em 0;
 .item-menu {
   float:right;
   margin-right: 30px;
-  color:black; 
+  color:black;
   text-decoration: none;
   border-block-end-style: dotted;
 }
 .headercolor {
-  background: #0a9dbd; 
+  background: #0a9dbd;
   padding: 2em 0;
 }
 .item-header {
