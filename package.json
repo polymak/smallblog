@@ -1,6 +1,6 @@
 {
   "name": "smallblog",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Smallblog est une application web du Blog Profesionnel et Entreprise développée avec vuejs",
   "author": "Polycarpe MAKOMBO <polycarpemakombo@gmail.com>",
   "private": true,
