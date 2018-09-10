@@ -1,6 +1,6 @@
 # SmallBlog
 
-> Smallblog est une application web développée avec vuejs par Polycarpe Makombo. Donc c'est une application web pour le Blog Profesionnel et entreprise.
+> smallblog est une application web développée avec vuejs par Polycarpe Makombo. Donc c'est une application web pour le Blog Profesionnel et entreprise.
 
 ## Build Setup
 
