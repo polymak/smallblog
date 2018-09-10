@@ -1,6 +1,6 @@
-# projet1
+# SmallBlog
 
-> College Maele est un projet d'une application web dévéloppé en VueJavaScript par Polycarpe MAKOMBO
+> Smallblog est une application web développée avec vuejs par Polycarpe Makombo. Donc c'est une application web pour le Blog Profesionnel et entreprise.
 
 ## Build Setup
 

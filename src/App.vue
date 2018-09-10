@@ -1,20 +1,20 @@
 <template>
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
-    <MenuTopbar />
+    <MenuHaut />
     <router-view/>
-    <MenuFooter/>
+    <MenuBas/>
   </div>
 </template>
 
 <script>
-import MenuTopbar from './components/MenuTopbar'
-import MenuFooter from './components/MenuFooter'
+import MenuHaut from './components/MenuHaut'
+import MenuBas from './components/MenuBas'
 export default {
   name: 'App',
   components: {
-    MenuTopbar,
-    MenuFooter
+    MenuHaut,
+    MenuBas
   }
 }
 </script>

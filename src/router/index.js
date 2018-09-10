@@ -1,69 +1,59 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
-import Courses from '@/components/Courses'
-import Pages from '@/components/Pages'
-import Blog from '@/components/Blog'
-import Shop from '@/components/Shop'
-import Elements from '@/components/Elements'
-import aboutus from '@/components/Aboutus'
-import admission from '@/components/admission'
-import contactus from '@/components/contactus'
-import events from '@/components/events'
-import students from '@/components/students'
-import latesnews from '@/components/latesnews'
+import intro from '@/components/intro'
+import myblog from '@/components/myblog'
+import aproposblog from '@/components/aproposblog'
+import contactme from '@/components/contactme'
+import carriere from '@/components/carriere'
+import mission from '@/components/mission'
+import job from '@/components/job'
+import coursweb from '@/components/coursweb'
+import coursandroid from '@/components/coursandroid'
+import coursdatabase from '@/components/coursdatabase'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'intro',
+      component: intro
     }, {
-      path: '/courses',
-      name: 'courses',
-      component: Courses
+      path: '/myblog',
+      name: 'myblog',
+      component: myblog
     }, {
-      path: '/pages',
-      name: 'pages',
-      component: Pages
+      path: '/aproposblog',
+      name: 'aproposblog',
+      component: aproposblog
     }, {
-      path: '/blog',
-      name: 'blog',
-      component: Blog
+      path: '/contactme',
+      name: 'contactme',
+      component: contactme
     }, {
-      path: '/shop',
-      name: 'shop',
-      component: Shop
+      path: '/carriere',
+      name: 'carriere',
+      component: carriere
     }, {
-      path: '/elements',
-      name: 'elements',
-      component: Elements
+      path: '/mission',
+      name: 'mission',
+      component: mission
     }, {
-      path: '/aboutus',
-      name: 'aboutus',
-      component: aboutus
+      path: '/job',
+      name: 'job',
+      component: job
     }, {
-      path: '/admission',
-      name: 'admission',
-      component: admission
+      path: '/coursweb',
+      name: 'coursweb',
+      component: coursweb
     }, {
-      path: '/events',
-      name: 'events',
-      component: events
+      path: '/coursandroid',
+      name: 'coursandroid',
+      component: coursandroid
     }, {
-      path: '/students',
-      name: 'students',
-      component: students
-    }, {
-      path: '/latesnews',
-      name: 'latesnews',
-      component: latesnews
-    }, {
-      path: '/contactus',
-      name: 'contactus',
-      component: contactus
+      path: '/coursdatabase',
+      name: 'coursdatabase',
+      component: coursdatabase
     }
   ]
 })
